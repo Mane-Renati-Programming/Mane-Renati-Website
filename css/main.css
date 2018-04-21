@@ -1,3 +1,42 @@
 
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .flex {
+     display: flex;
+     justify-content: center;
+ }
+.flex article {
+    width: 19%;
+    text-align: center;
+}
