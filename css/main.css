@@ -1,3 +1,41 @@
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background-color: #FAFAFA;
+  padding: 0;
+  margin: 0;
+  color: #050505;
+  font-size: 20px; }
 
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  height: 100px;
+  width: 100%;
+  background-color: #FFFFFF;
+  border-bottom: 10px solid #B50000; }
+  header a {
+    color: #050505;
+    text-decoration: none; }
+  header div#logo {
+    background-image: url(../img/nav-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 100px;
+    width: 200px; }
+  header nav ul {
+    display: flex;
+    justify-content: space-between; }
+    header nav ul li {
+      padding: 20px;
+      list-style: none; }
 
 /*# sourceMappingURL=main.css.map */

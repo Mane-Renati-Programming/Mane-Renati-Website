@@ -1,0 +1,47 @@
+@import 'vars';
+
+body {
+	font-family: sans-serif;
+	box-sizing: border-box;
+	background-color: $background-color;
+	padding: 0;
+	margin: 0;
+	color: $foreground-color;
+	font-size: 20px;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #FFFFFF;
+	border-bottom: 10px solid $accent-color;
+	a {
+		color: $foreground-color;
+		text-decoration: none;
+	}
+	div#logo {
+		background-image: url(../img/nav-logo.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-position: left;
+		height: 100px;
+		width: 200px;
+	}
+	nav ul {
+		display: flex;
+		justify-content: space-between;
+		li {
+			padding: 20px;
+			list-style: none;
+		}
+	}
+}
